@@ -1,7 +1,7 @@
 // Lista de números já sorteados (evita repetição)
 let listaNumerosSorteados = [];
 // Limite máximo para o número secreto (1 até 100)
-let limiteNumeroSorteado = 150;
+let limiteNumeroSorteado = 50;
 // Contador de tentativas do jogador
 let tentativas = 1;
 
@@ -51,7 +51,7 @@ function inserirTextoHtml(tag, texto) {
 // Exibe título e instrução inicial na tela
 function exibirMensagemInicial() {
     inserirTextoHtml('h1', 'Jogo do Número Secreto!');
-    inserirTextoHtml('p', 'Digite um número entre 1 e 150:');    
+    inserirTextoHtml('p', 'Digite um número entre 1 e 50:');    
 }
 
 // Mostra a mensagem inicial ao carregar o jogo
